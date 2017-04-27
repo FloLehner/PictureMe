@@ -1,0 +1,658 @@
+body{
+background-color: #f0f2ef;    
+}
+
+@media only screen and (min-width: 1025px){
+#loginLabel{
+    text-align: center;
+}
+#createProfileLabel{
+    text-align: center; 
+}
+#username, #createUsername, #createPassword, #createMail{
+    border-style: solid;
+    border-radius: 3px;
+}
+#password{
+    border-style: solid;
+    border-radius: 3px;
+}
+#pictureMeLabel{
+width:100%;
+font-size: 40px;
+margin-top:5%;
+margin-bottom: 5%;
+}
+#passwordLabelColumn, #createPasswordLabelColumn, #createMailLabelColumn, #createUsernameLabelColumn{
+text-align: right;
+font-size: 20px;
+}
+#passwordTextColumn, #createPasswordTextColumn, #createMailTextColumn, #createUsernameTextColumn{
+text-align: left;    
+}
+#usernameLabelColumn{
+text-align: right; 
+font-size: 20px;
+}
+#createPasswordTextColumn, #createMailTextColumn, #createUsernameTextColumn{
+font-size: 20px;
+margin-bottom: 2%;    
+}
+#usernameTextColumn{
+text-align: left;    
+}
+#loginButton, #create{
+float: right;
+width: 150px;
+}
+#createProfileButton, #cancel{
+float: left;  
+width: 150px;
+}
+#loginButtonRow, #createProfileButtonRow{
+    margin-top: 5%;
+}
+#loginBorder{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    border-radius: 30px;
+    padding-top:8%;
+    padding-bottom:8%;
+    margin-left:28%;
+    margin-right: 28%;
+}
+#createProfileBorder{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    border-radius: 30px;
+    padding-top:8%;
+    padding-bottom:8%;
+    margin-left:22%;
+    margin-right: 22%;
+}
+    
+#headerRow{
+    background-color: #f0f2ef;
+    text-align: left;
+}
+#pictureMeName{
+    width:70%;
+    font-size: 40px;
+    position:relative;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#infoGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#mapGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#cloudGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#listGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#logOffGlyphicon{
+   width:5%;
+   font-size:30px; 
+}
+
+#sanFranImage{
+    position:relative;
+    width: 105.3%;
+    height: 650px;
+}
+.imageContainer{
+    position:relative;
+    width:100%;
+    height:650px;
+    margin-bottom: 5%;
+     
+}
+#sanFranImageText{
+   font-size: 30px;
+   position: absolute; 
+   width: 40%;
+   top: 40%; 
+   left: 35%; 
+   right:35%;
+   color: whitesmoke;   
+}
+#introLabel{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+#introText{
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+#locationTrackerLabel, #hotNcoldLabel, #properlyPreparedLabel{
+ font-size: 30px;
+ margin-bottom: 2%;   
+}
+#locationTrackerText, #hotNcoldText, #properlyPreparedText{
+ font-size: 20px;
+ margin-bottom: 2%;   
+}
+#map{
+    width: 105.3%;
+    height: 450px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin-bottom: 2%;    
+}
+#longitudeLabel{
+padding-left: 2%;    
+width: 15%;
+}
+#longitude{
+width: 20%;
+border-style: solid;
+border-radius: 3px;
+
+}
+#latitudeLabel{
+padding-left: 2%;    
+width: 15%;    
+}
+#latitude{
+width: 20%; 
+border-style: solid;
+border-radius: 3px;
+}
+#addLatLng{
+float: right;    
+margin-right: 3%;    
+width: 15%; 
+margin-bottom: 10%;
+}
+#properlyPreparedDescription{
+    width: 20%;
+}
+#equipment{
+    border-style: solid;
+    border-radius: 3px;
+    width: 20%;   
+}
+#addEquipment{
+float:right;    
+width:30%  ;
+margin-bottom: 2%;    
+}
+#myTable{
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+#temperature, #windspeed, #humidity{
+font-size: 20px;    
+}
+#temperatureLabel, #windspeedLabel, #humidityLabel{
+font-size: 20px;    
+}
+#windspeed{
+    margin-bottom: 10%;
+}
+
+
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+#loginLabel{
+    text-align: center;
+}
+#createProfileLabel{
+    text-align: center; 
+}
+#username, #createUsername, #createPassword, #createMail{
+    border-style: solid;
+    border-radius: 3px;
+}
+#password{
+    border-style: solid;
+    border-radius: 3px;
+}
+#pictureMeLabel{
+width:100%;
+font-size: 40px;
+margin-top:5%;
+margin-bottom: 5%;
+}
+#passwordLabelColumn, #createPasswordLabelColumn, #createMailLabelColumn, #createUsernameLabelColumn{
+text-align: right;
+font-size: 20px;
+}
+#passwordTextColumn, #createPasswordTextColumn, #createMailTextColumn, #createUsernameTextColumn{
+text-align: left;    
+}
+#usernameLabelColumn{
+text-align: right; 
+font-size: 20px;
+}
+#createPasswordTextColumn, #createMailTextColumn, #createUsernameTextColumn{
+font-size: 20px;
+margin-bottom: 2%;
+}
+#usernameTextColumn{
+text-align: left;    
+}
+#loginButton, #create{
+float: right;
+width: 150px;
+}
+#createProfileButton, #cancel{
+float: left;  
+width: 150px;
+}
+#loginButtonRow, #createProfileButtonRow{
+    margin-top: 5%;
+}
+#loginBorder{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    border-radius: 30px;
+    padding-top:8%;
+    padding-bottom:8%;
+    margin-left:25%;
+    margin-right: 25%;
+}
+#createProfileBorder{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    border-radius: 30px;
+    padding-top:8%;
+    padding-bottom:8%;
+    margin-left:16%;
+    margin-right: 16%;
+}
+#headerRow{
+    background-color: #f0f2ef;
+    text-align: left;
+}
+#pictureMeName{
+    width:65%;
+    font-size: 40px;
+    position:relative;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#infoGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#mapGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#listGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#cloudGlyphicon{
+    width:5%;
+    font-size:30px;
+}
+#logOffGlyphicon{
+   width:5%;
+   font-size:30px; 
+}
+#sanFranImage{
+    position:relative;
+    width: 105.3%;
+    height: 500px;
+}
+.imageContainer{
+    position:relative;
+    width:100%;
+    height:500px;
+    margin-bottom: 5%;        
+}
+#sanFranImageText{
+   font-size: 30px;
+   position: absolute; 
+   width: 40%;
+   top: 40%; 
+   left: 35%; 
+   right:35%;
+   color: whitesmoke;   
+}
+#introLabel{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+#introText{
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+#locationTrackerLabel, #hotNcoldLabel, #properlyPreparedLabel{
+ font-size: 30px;
+ margin-bottom: 2%;   
+}
+#locationTrackerText, #hotNcoldText, #properlyPreparedText{
+ font-size: 20px;
+ margin-bottom: 2%;   
+}
+#map{
+    width: 105.3%;
+    height: 350px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin-bottom: 2%;    
+}
+#longitudeLabel{
+padding-left: 2%;    
+width: 15%;
+}
+#longitude{
+width: 20%;
+border-style: solid;
+border-radius: 3px;
+
+}
+#latitudeLabel{
+padding-left: 2%;    
+width: 15%;    
+}
+#latitude{
+width: 20%; 
+border-style: solid;
+border-radius: 3px;
+}
+#addLatLng{
+font-size: 10px;
+float: right;    
+margin-right: 3%;    
+width: 15%; 
+margin-bottom: 10%;
+}
+#properlyPreparedDescription{
+    width: 30%;
+}
+#equipment{
+    border-style: solid;
+    border-radius: 3px;
+    width: 30%;   
+}
+#addEquipment{
+float:right;    
+width:30%  ;
+margin-bottom: 2%;    
+}
+#myTable{
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+#temperature, #windspeed, #humidity{
+font-size: 20px;    
+}
+#temperatureLabel, #windspeedLabel, #humidityLabel{
+font-size: 20px;    
+}
+#windspeed{
+    margin-bottom: 10%;
+}
+}
+
+@media only screen and (max-width : 767px){
+#loginLabel{
+    text-align: center;
+}
+#createProfileLabel{
+    text-align: center; 
+}
+#username, #createUsername, #createPassword, #createMail{
+    border-style: solid;
+    border-radius: 3px;
+}
+#password{
+    border-style: solid;
+    border-radius: 3px;
+}
+#pictureMeLabel{
+width:100%;
+font-size: 20px;
+margin-top:5%;
+margin-bottom: 5%;
+}
+#passwordLabelColumn, #createPasswordLabelColumn, #createMailLabelColumn, #createUsernameLabelColumn{
+text-align: left;
+font-size: 15px;
+}
+#passwordTextColumn, #createPasswordTextColumn, #createMailTextColumn, #createUsernameTextColumn{
+text-align: left;    
+}
+#usernameLabelColumn{
+text-align: left; 
+font-size: 15px;
+margin-bottom: 2%;
+}
+#createPasswordTextColumn, #createMailTextColumn, #createUsernameTextColumn{
+font-size: 15px;
+margin-bottom: 2%;    
+}
+
+#usernameTextColumn{
+text-align: left;    
+}
+#loginButton, #create{
+float: right;
+width: 100px;
+font-size: 12px;
+}
+#createProfileButton, #cancel{
+float: left;  
+width: 100px;
+font-size: 12px;
+}
+#loginButtonRow, #createProfileButtonRow{
+    margin-top: 10%;
+}
+#loginBorder{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    border-radius: 30px;
+    padding-top:8%;
+    padding-bottom:8%;
+    padding-left:2%;
+    padding-right: 1%;
+    margin-left:5%;
+    margin-right: 5%;
+}
+#createProfileBorder{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    border-radius: 30px;
+    padding-top:8%;
+    padding-bottom:8%;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin-left:5%;
+    margin-right: 5%;
+}
+#headerRow{
+    background-color: #f0f2ef;
+    text-align: left;
+}
+#pictureMeName{
+    width:49%;
+    font-size: 23px;
+    position:relative;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#infoGlyphicon{
+    width:8%;
+    font-size:20px;
+}
+#mapGlyphicon{
+    width:8%;
+    font-size:20px;
+}
+#cloudGlyphicon{
+    width:8%;
+    font-size:20px;
+}
+#listGlyphicon{
+    width:8%;
+    font-size:20px;
+}
+#logOffGlyphicon{
+    width:8%;
+    font-size:20px;
+}
+#sanFranImage{
+    position:relative;
+    width: 105.3%;
+    height: 300px;
+}
+.imageContainer{
+    position:relative;
+    width:100%;
+    height: 300px;
+    margin-bottom: 5%;
+     
+}
+#sanFranImageText{
+   font-size: 20px;
+   position: absolute; 
+   width: 40%;
+   top: 35%; 
+   left: 35%; 
+   right:35%;
+   color: whitesmoke;   
+}
+#introLabel{
+    font-size: 17px;
+    margin-bottom: 2%;
+}
+#introText{
+    font-size: 13px;
+    margin-bottom: 10%;
+}
+
+#locationTrackerLabel, #hotNcoldLabel, #properlyPreparedLabel{
+ font-size: 17px;
+ margin-bottom: 2%;   
+}
+#locationTrackerText, #hotNcoldText, #properlyPreparedText{
+ font-size: 13px;
+ margin-bottom: 2%;   
+}
+#map{
+    width: 105.3%;
+    height: 270px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin-bottom: 10%;    
+}
+#longitudeLabel{
+font-size: 9px;    
+padding-left: 1%;    
+width: 20%;
+}
+#longitude{
+font-size: 9px;    
+width: 20%;
+border-style: solid;
+border-radius: 3px;
+
+}
+#latitudeLabel{
+font-size: 9px;    
+padding-left: 2%;    
+width: 20%;    
+}
+#latitude{
+font-size: 9px;    
+width: 20%; 
+border-style: solid;
+border-radius: 3px;
+}
+#addLatLng{
+font-size: 7px;
+float: right;    
+margin-right: 1%;    
+width: 18%; 
+margin-bottom: 10%;
+}
+#properlyPreparedDescription{
+    font-size: 9px; 
+    width: 42%;
+}
+#equipment{
+    font-size: 9px;
+    border-style: solid;
+    border-radius: 3px;
+    width: 25%;   
+}
+#addEquipment{
+font-size: 7px;
+margin-left:2%;
+width:29%  ;    
+}
+
+#myTable{
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+#windspeed{
+    margin-bottom: 10%;
+}
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

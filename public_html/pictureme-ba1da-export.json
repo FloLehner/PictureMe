@@ -1,0 +1,25 @@
+{
+  "user" : {
+    "Florian" : {
+      "latitude" : 48.151975,
+      "longitude" : 16.404527,
+      "password" : "flo",
+      "title" : "Hier ist ein guter Platz um ein Foto zu schießen",
+      "username" : "Florian"
+    },
+    "Test" : {
+      "latitude" : 48.151159,
+      "longitude" : 16.393819,
+      "password" : "tester",
+      "title" : "Hier ist ein guter Platz um ein Foto zu schießen",
+      "username" : "Test"
+    },
+    "Testuser" : {
+      "latitude" : 48.151975,
+      "longitude" : 16.404527,
+      "password" : "test",
+      "title" : "Hier ist ein guter Platz um ein Foto zu schießen",
+      "username" : "Testuser"
+    }
+  }
+}
